@@ -1,7 +1,7 @@
 {
   "name": "Serveriobotas",
   "bot-account": {
-    "username": "Pizdies",
+    "username": "botikas",
     "password": "",
     "type": "offline"
   },
@@ -36,7 +36,7 @@
         ""
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": false,
     "auto-reconnect-delay": 0,
     "max-reconnect-delay": 0
