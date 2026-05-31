@@ -1,7 +1,7 @@
 {
   "name": "Serveriobotas",
   "bot-account": {
-    "username": "botikas",
+    "username": "Pizdies",
     "password": "",
     "type": "offline"
   },
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": false,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 0,
+    "max-reconnect-delay": 0
   },
   "movement": {
     "enabled": true,
