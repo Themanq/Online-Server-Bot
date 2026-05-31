@@ -1,9 +1,9 @@
 {
   "name": "Serveriobotas",
   "bot-account": {
-    "username": "botikas",
+    "username": "automatukas",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "BuhaltaruServeris.aternos.me",
