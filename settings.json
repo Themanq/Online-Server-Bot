@@ -1,5 +1,5 @@
 {
-  "name": "Serveriobotas",
+  "name": "StableAFKBot",
 
   "bot-account": {
     "username": "Banditas",
@@ -13,10 +13,6 @@
     "version": "1.21.1"
   },
 
-  "position": {
-    "enabled": false
-  },
-
   "utils": {
     "auto-auth": {
       "enabled": false,
@@ -25,7 +21,7 @@
 
     "anti-afk": {
       "enabled": true,
-      "sneak": false
+      "sneak": true
     },
 
     "chat-messages": {
@@ -35,8 +31,8 @@
     "chat-log": false,
 
     "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 30000
+    "auto-reconnect-delay": 20000,
+    "max-reconnect-delay": 60000
   },
 
   "movement": {
@@ -45,22 +41,22 @@
     "circle-walk": {
       "enabled": true,
       "radius": 1,
-      "speed": 0.3
+      "speed": 0.2
     },
 
     "look-around": {
       "enabled": true,
-      "interval": 15000
+      "interval": 20000
     },
 
     "random-jump": {
-      "enabled": true,
-      "interval": 30000
+      "enabled": false,
+      "interval": 0
     }
   },
 
   "modules": {
-    "avoidMobs": false,
+    "avoidMobs": true,
     "combat": false,
     "beds": false,
     "chat": false,
